@@ -71,7 +71,7 @@ export default function App() {
                 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
             </svg>
           </a>
-          <div className="w-px h-5 bg-gray-200" /></div>
+          <div className="w-px h-5 bg-gray-200" />
           <span className="text-xs text-gray-400 whitespace-nowrap">Encodage :</span>
           {ENCODINGS.map((enc) => (
             <button

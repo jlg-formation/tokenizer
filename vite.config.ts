@@ -5,5 +5,5 @@ import wasm from 'vite-plugin-wasm'
 
 export default defineConfig({
   plugins: [wasm(), react(), tailwindcss()],
-  base: '/tokenizer/',
+  base: process.env.NODE_ENV === 'production' ? '/tokenizer/' : '/',
 })
