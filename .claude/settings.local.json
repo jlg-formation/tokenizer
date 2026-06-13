@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create *)",
+      "Bash(xcopy /E /I /Y temp-init\\\\* .)",
+      "Bash(rmdir /S /Q temp-init)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173)",
+      "Bash(start http://localhost:5173)",
+      "PowerShell(Start-Process \"http://localhost:5173\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "PowerShell(New-Item -ItemType Directory -Force \"d:\\\\___AGENTS\\\\token-interface\\\\.github\\\\workflows\")",
+      "Bash(git init *)",
+      "Bash(git remote *)",
+      "Bash(git checkout *)",
+      "Bash(git add *)"
+    ]
+  }
+}
