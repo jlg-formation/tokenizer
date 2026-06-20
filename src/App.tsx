@@ -105,7 +105,7 @@ export default function App() {
             onChange={(e) => setText(e.target.value)}
           />
           {tokens.length > 0 && (
-            <StatsBar tokens={tokens} charCount={text.length} />
+            <StatsBar tokens={tokens} charCount={text.length} text={text} />
           )}
         </div>
 
