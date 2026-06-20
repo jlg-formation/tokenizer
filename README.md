@@ -19,21 +19,20 @@ Saisissez du texte et observez en temps réel comment il est découpé en tokens
 
 ## Prérequis
 
-- [Node.js](https://nodejs.org/) v18 ou supérieur
-- npm v9 ou supérieur
+- [Bun](https://bun.sh/) v1.0 ou supérieur
 
 ## Installation
 
 ```bash
 git clone https://github.com/jlg-formation/tokenizer.git
 cd tokenizer
-npm install
+bun install
 ```
 
 ## Développement
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 L'application est disponible sur [http://localhost:5173](http://localhost:5173).
@@ -41,7 +40,7 @@ L'application est disponible sur [http://localhost:5173](http://localhost:5173).
 ## Build de production
 
 ```bash
-npm run build
+bun run build
 ```
 
 Les fichiers compilés sont générés dans le dossier `dist/`.
